@@ -27,11 +27,7 @@ void UOpenDoor::BeginPlay()
 	FRotator NewRotation = FRotator(0.f, 60.f, 0.f);
 
 	// Set the door rotation
-	Owner->SetActorRotation(NewRotation);
-
-	//FString OwnerRotation = GetOwner()->GetActorRotation().ToString();
-	//UE_LOG(LogTemp, Warning, TEXT("%s is rotated at %s degrees"), *Owner, *OwnerRotation);
-	
+	Owner->SetActorRotation(NewRotation);	
 }
 
 
