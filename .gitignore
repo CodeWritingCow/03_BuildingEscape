@@ -63,3 +63,4 @@ BuildingEscape/Content/StarterContent/
 */.vs
 *.suo
 *.VC.opendb
+*.sln
